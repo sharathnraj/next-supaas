@@ -1,0 +1,39 @@
+{
+  /* Format when we save to ensure consistency */
+  "editor.formatOnSave": true,
+
+  // So we can run lint tasks e.g. `lint whole folder`
+  "eslint.lintTask.enable": true,
+
+  /* Run eslint over the whole project not just open files */
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+
+  /* Absolute imports */
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+
+  /* Use Prettier */
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "css.customData": ["./.vscode/cssCustomData.json"],
+  "cSpell.words": [
+    "nonprod",
+    "Reece",
+    "reecetech",
+    "sigv",
+    "Supaas",
+    "unoptimized"
+  ]
+}
